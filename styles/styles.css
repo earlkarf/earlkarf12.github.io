@@ -1,0 +1,60 @@
+body {
+    margin: auto 100px;
+    padding: 1% 0%;
+    background-image: url(../images/site-backgrnd.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+#survey-form {
+    text-align: justify;
+    background-color: #00004d;
+    opacity: 70%;
+    margin: auto;
+    padding: auto;
+}
+#bar {
+    width: auto;
+    height: 50%;
+    max-width: 100%;
+    min-width: 95%;
+}
+#lb {
+    color: white;
+    opacity: 100%;
+    font-size: 25px;
+    margin: 1% 5%;
+}
+#opt {
+    color: white;
+    opacity: 100%;
+    font-size: 20px;
+}
+#il {
+    color: white;
+    opacity: 100%;
+    font-size: 16px;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+p {
+    text-align: center;
+    font-weight: 100%;
+    font-size: 25px;
+}
+#submit {
+    background-color: green;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    width: auto;
+    height: 50px;
+    max-width: 100%;
+    min-width: 95%;
+}
+#txtarea {
+    margin-bottom: 100px;
+    width: auto;
+    max-width: 100%;
+    min-width: 95%;
+}

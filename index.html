@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h1 id="title">freeCodeForm Survey Form</h1>
+    <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+    <form id="survey-form">
+        <div id="lb">
+            <div>
+                <div id="opt">Name</div>
+                <label for="name"><input type="text" id="bar" placeholder="Enter your Name" required></label><br><br>
+            </div>
+            <div>
+                <div id="opt">Email</div>
+                <label for="name"><input type="text" id="bar" placeholder="Enter your Email" required></label><br><br>
+            </div>
+            <div>
+                <div id="opt">Age(optional)</div>
+                <label for="age"><input type="text" id="bar" placeholder="Age" required min="11" max="30"></label><br><br>
+            </div>
+            <div>
+                <div id="opt">Which option best describes your current role?</div>
+                <select name="current role" id="bar"><option value="student">student</option><option value="Full Time Job">
+                Full Time Job</option><option value="Full Time Learner">Full Time Learner</option><option value="Prefer Not To Say">
+                    Prefer Not To Say</option><option value="Other">Other</option></select><br><br>
+            </div>
+            <div id="il">
+                <div id="opt">Would you recommend freeCodeCamp to a friend?</div>
+                <label for="definately"><input type="radio" name="recommend" id="il" value="definately">Definately</label><br>
+                <label for="may be"><input type="radio" name="recommend" id="il" value="may be">May be</label><br>
+                <label for="not sure"><input type="radio" name="recommend" id="il" value="not sure">Not sure</label><br><br>
+            </div>
+            <div>
+                <div id="opt"> What is your favorite feature of freeCodeCamp?</div>
+                <select name="feature" id="bar"><option value="Challenges">Challenges</option><option value="projects">Projects</option>
+                <option value="open source">Open source</option><option value="community">Community</option></select>
+            </div><br><br>
+            <div id="il">
+                <div id="opt">What would you like to see improved? (Check all that apply)</div>
+                <label for="Front-end Projects"><input type="checkbox" name="improve" id="lbl">Front-end Projects</label><br>
+                <label for="Back-end Projects"><input type="checkbox" name="improve" id="lbl">Back-end Projects</label><br>
+                <label for="Data Visualization"><input type="checkbox" name="improve" id="lbl">Data Visualization</label><br>
+                <label for="Challenges"><input type="checkbox" name="improve" id="lbl">Challenges</label><br>
+                <label for="Open Source Community"><input type="checkbox" name="improve" id="lbl">Open Source Community</label><br>
+                <label for="Gitter help rooms"><input type="checkbox" name="improve" id="lbl">Gitter help rooms</label><br>
+                <label for="Videos"><input type="checkbox" name="improve" id="lbl">Videos</label><br>
+                <label for="City Meetups"><input type="checkbox" name="improve" id="lbl">City Meetups</label><br>
+                <label for="Wiki"><input type="checkbox" name="improve" id="lbl">Wiki</label><br>
+                <label for="Forum"><input type="checkbox" name="improve" id="lbl">Forum</label><br>
+                <label for="Additional Courses"><input type="checkbox" name="lbl" id="Additional Courses">Additional Courses</label>
+            </div><br><br>
+            <div>
+                <div id="opt">Any comments or suggestions?</div>
+                <textarea name="suggentions" id="txtarea" cols="30" rows="10" placeholder="Please enter your comments here ..."></textarea>
+            </div><br><br>
+            <div>
+                <input type="submit" value="register" id="submit">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
